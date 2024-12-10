@@ -1,0 +1,1011 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.booking-container {
+    margin: 200px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.booking-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-container form label {
+    margin-top: 10px;
+}
+
+.booking-container form input[type="text"],
+.booking-container form input[type="tel"],
+.booking-container form input[type="email"],
+.booking-container form input[type="date"],
+.booking-container form select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.booking-container form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.booking-container form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1a8edc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.booking-container form button:hover {
+    background-color: #0059ff;
+}
+
+.switch-to-register,
+.switch-to-login {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.switch-to-register a,
+.switch-to-login a {
+    color: #035ee6;
+    text-decoration: none;
+}
+
+.switch-to-register a:hover,
+.switch-to-login a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+menu,
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  background: #ffffff;
+  height: 1691px;
+  position: relative;
+  overflow: hidden;
+}
+.div2 {
+  position: absolute;
+  inset: 0;
+}
+.navigations-bar {
+  width: 1706.67px;
+  height: 53.33px;
+  position: absolute;
+  left: 91px;
+  top: 45.33px;
+}
+.login-button {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #1a8edc;
+  border-radius: 46.67px;
+  width: 5.94%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 94.06%;
+  bottom: 0%;
+  top: 0%;
+}
+.div3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18.66666603088379px;
+  line-height: 26.67px;
+  font-weight: 400;
+  position: absolute;
+  right: 1.33%;
+  left: 95.39%;
+  width: 3.28%;
+  bottom: 24.38%;
+  top: 25%;
+  height: 50.62%;
+}
+.auto-link {
+  position: absolute;
+  inset: 0;
+}
+.div4 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 55.8%;
+  left: 34.06%;
+  width: 10.14%;
+  bottom: 20%;
+  top: 20%;
+  height: 60%;
+}
+.div5 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 34.34%;
+  left: 60.86%;
+  width: 4.8%;
+  bottom: 20%;
+  top: 20%;
+  height: 60%;
+}
+.div6 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 42.89%;
+  left: 47.97%;
+  width: 9.14%;
+  bottom: 20%;
+  top: 20%;
+  height: 60%;
+}
+.div7 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 24.75%;
+  left: 69.45%;
+  width: 5.8%;
+  bottom: 20%;
+  top: 20%;
+  height: 60%;
+}
+.div8 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 69.73%;
+  left: 26.87%;
+  width: 3.4%;
+  bottom: 20%;
+  top: 20%;
+  height: 60%;
+}
+._2-1 {
+  width: 136px;
+  height: 142.67px;
+  position: absolute;
+  left: 107px;
+  top: 0px;
+  overflow: visible;
+}
+.div9 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 53.333335876464844px;
+  line-height: 80px;
+  font-weight: 600;
+  position: absolute;
+  right: 73.82%;
+  left: 5.56%;
+  width: 20.62%;
+  bottom: 83.56%;
+  top: 11.71%;
+  height: 4.73%;
+}
+.hotel-cart-1 {
+  width: 548px;
+  height: 700px;
+  position: static;
+}
+.rectangle-782 {
+  background: #fafafa;
+  border-radius: 21.33px;
+  width: 28.54%;
+  height: 41.4%;
+  position: absolute;
+  right: 65.89%;
+  left: 5.57%;
+  bottom: 38.56%;
+  top: 20.05%;
+}
+.image {
+  border-radius: 20px 20px 0px 0px;
+  width: 28.54%;
+  height: 25.19%;
+  position: absolute;
+  right: 65.89%;
+  left: 5.57%;
+  bottom: 54.76%;
+  top: 20.05%;
+  object-fit: cover;
+}
+.cart-details {
+  width: 338px;
+  height: 84px;
+  position: static;
+}
+.div10 {
+  color: #222222;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 75.73%;
+  left: 6.67%;
+  width: 17.6%;
+  bottom: 48.31%;
+  top: 50.27%;
+  height: 1.42%;
+}
+.div-10-span {
+  color: #222222;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.div-10-span2 {
+  color: #222222;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.div11 {
+  color: #222222;
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  position: absolute;
+  right: 81.51%;
+  left: 6.67%;
+  width: 11.82%;
+  bottom: 50.92%;
+  top: 46.72%;
+  height: 2.37%;
+}
+.hotel-cart-2 {
+  width: 548.33px;
+  height: 700.33px;
+  position: static;
+}
+.rectangle-783 {
+  background: #fafafa;
+  border-radius: 21.33px;
+  width: 28.54%;
+  height: 41.4%;
+  position: absolute;
+  right: 35.68%;
+  left: 35.78%;
+  bottom: 38.56%;
+  top: 20.05%;
+}
+.image2 {
+  border-radius: 20px 20px 0px 0px;
+  width: 28.54%;
+  height: 25.23%;
+  position: absolute;
+  right: 35.69%;
+  left: 35.76%;
+  bottom: 54.74%;
+  top: 20.03%;
+  object-fit: cover;
+}
+.cart-details2 {
+  width: 321.33px;
+  height: 84px;
+  position: static;
+}
+.div12 {
+  color: #222222;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 45.83%;
+  left: 37.45%;
+  width: 16.72%;
+  bottom: 48.31%;
+  top: 50.27%;
+  height: 1.42%;
+}
+.div-12-span {
+  color: #222222;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.div-12-span2 {
+  color: #222222;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.div13 {
+  color: #222222;
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  position: absolute;
+  right: 51.16%;
+  left: 37.43%;
+  width: 11.41%;
+  bottom: 50.92%;
+  top: 46.72%;
+  height: 2.37%;
+}
+.hotel-cart-3 {
+  width: 548px;
+  height: 700px;
+  position: static;
+}
+.rectangle-784 {
+  background: #fafafa;
+  border-radius: 21.33px;
+  width: 28.54%;
+  height: 41.4%;
+  position: absolute;
+  right: 5.57%;
+  left: 65.89%;
+  bottom: 38.56%;
+  top: 20.05%;
+}
+._282805-1 {
+  border-radius: 20px 20px 0px 0px;
+  width: 28.54%;
+  height: 25.23%;
+  position: absolute;
+  right: 5.57%;
+  left: 65.89%;
+  bottom: 54.72%;
+  top: 20.05%;
+  object-fit: cover;
+}
+.cart-details3 {
+  width: 487px;
+  height: 84px;
+  position: static;
+}
+.div14 {
+  color: #222222;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 7.08%;
+  left: 67.55%;
+  width: 25.36%;
+  bottom: 48.31%;
+  top: 50.27%;
+  height: 1.42%;
+}
+.div-14-span {
+  color: #222222;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.div-14-span2 {
+  color: #222222;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.div15 {
+  color: #222222;
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  position: absolute;
+  right: 23.58%;
+  left: 67.57%;
+  width: 8.85%;
+  bottom: 50.92%;
+  top: 46.72%;
+  height: 2.37%;
+}
+.rectangle-5 {
+  background: #1a8edc;
+  border-radius: 36px;
+  width: 11.46%;
+  height: 2.72%;
+  position: absolute;
+  right: 81.88%;
+  left: 6.67%;
+  bottom: 40.57%;
+  top: 56.71%;
+}
+.rectangle-6 {
+  background: #1a8edc;
+  border-radius: 36px;
+  width: 11.46%;
+  height: 2.72%;
+  position: absolute;
+  right: 51.09%;
+  left: 37.45%;
+  bottom: 40.57%;
+  top: 56.71%;
+}
+.rectangle-7 {
+  background: #1a8edc;
+  border-radius: 36px;
+  width: 11.46%;
+  height: 2.72%;
+  position: absolute;
+  right: 20.99%;
+  left: 67.55%;
+  bottom: 40.57%;
+  top: 56.71%;
+}
+.div16 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 85.26%;
+  left: 10.05%;
+  width: 4.69%;
+  bottom: 41.22%;
+  top: 57.36%;
+  height: 1.42%;
+}
+.div17 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 24.38%;
+  left: 70.94%;
+  width: 4.69%;
+  bottom: 41.22%;
+  top: 57.36%;
+  height: 1.42%;
+}
+.div18 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 21.33333396911621px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 54.48%;
+  left: 40.83%;
+  width: 4.69%;
+  bottom: 41.22%;
+  top: 57.36%;
+  height: 1.42%;
+}
+.footer {
+  position: absolute;
+  inset: 0;
+}
+.footer-bg {
+  background: #535353;
+  width: 1920px;
+  height: 533px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1158px;
+}
+.group-13 {
+  width: 90px;
+  height: 158.41px;
+  position: static;
+}
+.div19 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 19.047618865966797px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1272.29px;
+}
+.whats-app {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 43px);
+  top: 1320px;
+}
+.instagram {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 43px);
+  top: 1349.21px;
+}
+.facebook {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 43px);
+  top: 1380.95px;
+}
+.telegram {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 43px);
+  top: 1412.7px;
+}
+.group-11 {
+  width: 165px;
+  height: 193.43px;
+  position: static;
+}
+.div20 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 19.047618865966797px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1272.29px;
+}
+.div21 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1320px;
+}
+.div22 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1352px;
+}
+.div23 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1383.75px;
+}
+.div24 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1415.75px;
+}
+.div25 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1447.71px;
+}
+
+.div29 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  top: 1479.71px;
+}
+
+.group-14 {
+  width: 457.16px;
+  height: 187.94px;
+  position: static;
+}
+.div26 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 19.047618865966797px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -312.56px);
+  top: 1272.29px;
+}
+.newsletter-input {
+  width: 457.14px;
+  height: 63.49px;
+  position: static;
+}
+.rectangle-19 {
+  background: #ffffff;
+  border-radius: 6.35px;
+  width: 457.14px;
+  height: 63.49px;
+  position: absolute;
+  left: calc(50% - -310.02px);
+  top: 1396.73px;
+}
+.div27 {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: justified;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 15.2380952835083px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -332.88px);
+  top: 1419.59px;
+}
+.sub-btn {
+  width: 140.95px;
+  height: 50.79px;
+  position: static;
+}
+.rectangle-20 {
+  background: #535353;
+  border-radius: 3.17px;
+  width: 140.95px;
+  height: 50.79px;
+  position: absolute;
+  left: calc(50% - -619.85px);
+  top: 1403.08px;
+}
+.subscribe {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 16.507938385009766px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -650px);
+  top: 1418px;
+}
+.div28 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -310px);
+  top: 1332px;
+  width: 457px;
+}
+.rectangle-21 {
+  background: rgba(217, 217, 217, 0.5);
+  width: 1920px;
+  height: 0.63px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1541.49px;
+}
+.nest-hostel-2024 {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Arial-Bold", sans-serif;
+  font-size: 19.047618865966797px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 86.35px);
+  top: 1604.98px;
+}
+._2-2 {
+  width: 136px;
+  height: 142.67px;
+  position: absolute;
+  left: 192px;
+  top: 1259px;
+  overflow: visible;
+}
+
+
+
+
+
+
+.block-link-1 {
+  text-decoration: none; 
+  color: inherit; 
+  display: block;
+  margin-right: 20px;
+}
+
+.block-link-1 div {
+  color: #ffffff;
+  transition: color 0.3s ease; 
+}
+
+.block-link-1:hover div {
+  color: #ffffff; 
+}
+
+.block-link {
+  text-decoration: none; 
+  color: inherit; 
+  display: block;
+  margin-right: 20px;
+}
+
+.block-link div {
+  color: #000000;
+  transition: color 0.3s ease; 
+}
+
+.block-link:hover div {
+  color: #1a8edc; 
+}
+
+.block-link.active div {
+  color: #1a8edc; 
+}
+
+
+
+
+
+
+
+.modal-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #1a8edc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-button:hover {
+  background-color: #1471b8;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1a8edc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1471b8;
+}
+
+.switch-to-register,
+.switch-to-login {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.switch-to-register a,
+.switch-to-login a {
+  color: #1a8edc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.switch-to-register a:hover,
+.switch-to-login a:hover {
+  color: #1471b8;
+}
